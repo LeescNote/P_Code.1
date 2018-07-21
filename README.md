@@ -1,4 +1,4 @@
-# P_Code.1
+# P_Code.2
 
 
-와... ... 후
+  Practice code.2
