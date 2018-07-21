@@ -70,3 +70,29 @@
   top: 11px;
   right: 10px;
 }
+
+.menu-text {
+  margin-top: 5px; 
+  background-color: #6b6767;
+}
+
+.menu-text .text-text{
+  border-right: 1px solid black;
+  background-color: pink;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  cursor: pointer;
+}
+
+.menu-text .text-text:last-child{
+  border-bottom: 1px solid black;
+}
+
+.menu-text .text-text:hover{
+  color:blue;
+  background-color: green;
+
+}
