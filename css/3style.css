@@ -1,0 +1,92 @@
+
+  .box{
+    position: relative;
+    border: 1px solid gray;
+    width: 300px;
+    height: 500px;
+    z-index: 2;
+  }
+
+  .box-column .column-vidio{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    right: 12px;
+    top: 5px;
+    cursor: pointer;
+  }
+
+  .column-vidio:hover{
+    color: red;
+  }
+
+  .box-text .text-header-top{
+    display: flex;
+  }
+
+  .box-text img{
+    margin: 10px;
+    padding:5px 20px;
+    border-radius: 50%;
+    font-size: 40px;
+  }
+
+  .header-name div{
+    margin-top: 19px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .header-name span{
+    font-size: 13px;
+  }
+
+  .text-header-bottom .bottom-fun{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .bottom-fun .fun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fun i{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+
+  .bottom-option .option-header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .option-header .option-header-top{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+  }
+
+  .option-header-top .option-text{
+    text-align: center;
+    width: 60px;
+    margin: 1px 10px;
+    background-color: gray;
+    opacity: 0.3;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #text{
+    text-align: center;
+    width: 120px;
+    margin: 1px 10px;
+    border: 1px solid gray;
+    background-color: gray;
+    opacity: 0.3;
+    border-radius: 5px;
+    cursor: pointer;
+  }
