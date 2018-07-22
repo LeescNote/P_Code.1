@@ -1,0 +1,148 @@
+.top_header{
+  background-color: #6991bc;
+  padding-bottom: 10px;
+}
+
+.bigscreentext{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffe94a;
+  z-index: 3;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  display: none;
+}
+
+@media screen and (min-width:1200px){
+  .bigscreentext{
+    display: flex;
+  }
+
+}
+
+
+.header_top .top-icons{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 10px;
+}
+
+.top-icons i{
+  padding-right: 10px;
+}
+
+h1{
+  text-align: center;
+  padding-top:10px;
+  font-size: 40px;
+}
+
+.bottom_header {
+  margin-top:2px;
+  padding:20px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #6991bc;
+}
+
+.bottom_header span:hover{
+  color: green;
+}
+
+.box_menu ol{
+  text-align: center;
+  margin-top: 3px;
+  background-color: #82abd8;
+  padding: 0;
+  height: 300px;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.box_menu ol li{
+  list-style: none;
+  background-color: #82abd8;
+  padding-top: 40px;
+}
+
+.boxs_box .box-title{
+  width: 150px;
+  height: 200px;
+}
+
+.main_box{
+    display: flex;
+}
+
+.boxs_box .box-titles{
+  margin-top: 2px;
+  padding-bottom: 30px;
+  margin-left: 2px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #6991bc;
+}
+
+.box-title {
+  margin-top: 2px;
+  margin-right: 5px;
+
+}
+
+.title_header-icons i{
+  padding: 5px 5px;
+  padding-left: 9px;
+}
+
+.title_header-icons span{
+  padding-left: 50px;
+}
+
+.main_box .box_menu{
+  margin-top: 2px;
+  background-color: #82abd8;
+}
+
+.finish-title {
+  margin-top: 2px;
+  height: 30px;
+  background-color: #aaa5a5;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.title-input .input-icon input{
+  text-align: center;
+  margin-top: 2px;
+  padding:10px 20px;
+  width: 350px;
+  position: relative;
+}
+
+.input-icon{
+  position: relative;
+}
+
+.input-icon i{
+  color: #d8d6d6;
+  z-index: 1;
+  position:absolute;
+  top: 15px;
+  padding-left: 10px;
+}
+
+.finish-bottom{
+  margin: 2px 0;
+  width: 100%;
+  padding: 100px 0;
+  background-color: #82abd8;
+}
