@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Media Query Test</title>
+
+  <style>
+    h1{
+      padding: 30px 0;
+      width: 100%;
+      text-align: center;
+      font-size: 50px;
+      border-bottom: 3px solid gray;
+      margin: 0;
+    }
+
+    ol{
+      padding: 0;
+      margin: 0;
+    }
+
+    ol li{
+      text-align: center;
+      padding:30px 0;
+      margin: 0;
+      border-right: 5px solid gray;
+
+    }
+
+    ol li:last-child{
+      border-bottom: 5px solid gray;
+    }
+
+    .child-box{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+
+    @media(max-width:600px){
+      h1{
+        color: red;
+        animation: 1s media ease-in-out;
+        border: none;
+        background-color: yellow;
+      }
+      ol {
+        color: pink;
+        background-color: gray;
+        text-align: center;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        border:5px solid black;
+      }
+
+
+      @keyframes media {
+        0{
+          transform: rotate(0);
+        }
+        50%{
+          transform: scale(.3);
+      }
+      100%{
+         transform: scale(.9);
+      }
+
+      }
+
+      .child-box {
+        display: block;
+      }
+
+      ol {
+        text-align: center;
+        border:5px solid black;
+      }
+
+      ol li,
+      ol li:last-child{
+        border: none;
+      }
+    }
+  </style>
+</head>
+ <body>
+    <h1>Media Query</h1>
+    <header class="box">
+      <div class="box-child">
+        <div class="child-box">
+          <ol>
+            <li>html</li>
+            <li>css</li>
+            <li>point</li>
+            <li>practice</li>
+            <li>apple</li>
+          </ol>
+          <span class="box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        </div>
+      </div>
+    </header>
+</body>
+</html>
