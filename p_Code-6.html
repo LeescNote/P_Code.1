@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flex</title>
+  <style>
+      body{
+        border: 1px solid gray;
+      }
+
+      .container{
+        display: flex;
+        flex-direction: column;
+      }
+
+      header{
+        border-bottom: 1px solid gray;
+        padding-left: 1rem;
+      }
+
+      footer{
+        border-top: 1px solid gray;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .content{
+        display: flex;
+      }
+
+      .content nav{
+        border-right: 1px solid gray;
+      }
+
+      .content aside{
+        border-left: 1px solid gray;
+      }
+
+      nav, aside{
+        flex-basis:180px;
+        flex-shrink: 0;
+      }
+
+      main{
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+
+      main h3{
+        text-align: center;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <h1>생활코딩</h1>
+    </header>
+    <section class="content">
+       <nav>
+         <ul>
+           <li>html</li>
+           <li>css</li>
+           <li>javascript</li>
+         </ul>
+       </nav>
+       <main>
+         <h3>flex-basis , shrink</h3>
+         Lorem ipsum do
+       </main>
+       <aside >
+         AD AD
+       </aside>
+    </section>
+    <footer>
+          <a href="google.com">홈페이지</a>
+    </footer>
+  </div>
+</body>
+</html>
