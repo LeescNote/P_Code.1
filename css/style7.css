@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: verdana;
+  background-color: #ABC;
+  padding: 50px;
+
+  width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255,255,255, 0.6);
+}
+
+#navmenu, .sub1, .sub2{
+  list-style-type: none;
+  font-size: 9pt;
+}
+
+#navmenu li{
+    width: 125px;
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-right: 5px;
+}
+
+#navmenu a{
+  width: 125px;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+  line-height: 23px;
+  text-decoration: none;
+
+}
+
+#navmenu .sub1 a{
+  margin-top: 7px;
+}
+
+#navmenu .sub2 a{
+  margin-left: 15px;
+}
+
+#navmenu li:hover>a{
+  background-color: gray;
+}
+
+#navmenu li:hover a:hover{
+  background-color: pink;
+}
+
+#navmenu .sub1{
+  display: none;
+  position: absolute;
+}
+
+#navmenu .sub2{
+  display: none;
+  position: absolute;
+  margin-left: 119px;
+  top: 0;
+}
+
+#navmenu li:hover .sub1{
+  display: block;
+}
+
+#navmenu .sub1 li:hover .sub2{
+  display: block;
+
+}

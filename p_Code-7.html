@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>menu bar</title>
+  <style>
+    *{
+      margin: 0;
+      padding:  0;
+    }
+
+    body{
+      background-color: #ABC;
+    }
+
+    h1{
+      text-align: center;
+      padding-bottom: 30px;
+      border-bottom: 1px solid gray;
+      margin: 2rem auto;
+    }
+
+    .top_bar li{
+      list-style-type: none;
+      width: 120px;
+      float: left;
+      text-align: center;
+      position: relative;
+      margin-right: 15px;
+    }
+
+    .top_bar a{
+      text-decoration: none;
+      display: block;
+      background-color: white;
+      width: 126px;
+      line-height: 25px;
+      border-radius: 5px;
+    }
+
+    .top_bar  .sub1 a{
+      margin-top: 5px;
+    }
+
+    .top_bar  .sub2 a{
+      margin-left: 10px;
+    }
+
+    .top_bar  .sub2 li{
+      margin-left: 15px;
+    }
+
+    .top_bar  li:hover > a{
+      background-color: gray;
+    }
+
+    .top_bar li:hover a:hover{
+      background-color: pink;
+    }
+
+    .top_bar .sub1{
+      display: none;
+      position: absolute;
+    }
+
+    .top_bar  .sub2 {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 107px;
+    }
+
+    .top_bar li:hover .sub1{
+      display: block;
+    }
+
+    .top_bar .sub1 li:hover .sub2{
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Navigation menu</h1>
+
+  <ul class="top_bar">
+    <li><a href="#">가</a></li>
+    <li><a href="#">나</a>
+         <ul class="sub1">
+            <li><a href="#">나나나</a></li>
+            <li><a href="#">다다다</a></li>
+            <li><a href="#">라라라</a>
+                <ul class="sub2">
+                  <li><a href="#">라이온</a></li>
+                  <li><a href="#">라라웅</a></li>
+                  <li><a href="#">라리웅</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#">다</a></li>
+    <li><a href="#">라</a></li>
+  </ul>
+</body>
+</html>
