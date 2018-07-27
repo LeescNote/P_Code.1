@@ -29,15 +29,17 @@
       text-align: center;
       position: relative;
       margin-right: 15px;
+
     }
 
     .top_bar a{
+      width: 120px;
       text-decoration: none;
       display: block;
       background-color: white;
-      width: 126px;
       line-height: 25px;
       border-radius: 5px;
+
     }
 
     .top_bar  .sub1 a{
@@ -69,7 +71,7 @@
       display: none;
       position: absolute;
       top: 0;
-      left: 107px;
+      left: 100px;
     }
 
     .top_bar li:hover .sub1{
@@ -85,22 +87,59 @@
   <h1>Navigation menu</h1>
 
   <ul class="top_bar">
-    <li><a href="#">가</a></li>
+    <li><a href="#">가</a>
+      <ul class="sub1">
+         <li><a href="#">나나나</a>
+           <ul class="sub2">
+             <li><a href="#">라이온</a></li>
+             <li><a href="#">라라웅</a></li>
+             <li><a href="#">라리웅</a></li>
+           </ul>
+         </li>
+         <li><a href="#">다다다</a></li>
+         <li><a href="#">라라라</a></li>
+     </ul>
+    </li>
     <li><a href="#">나</a>
          <ul class="sub1">
             <li><a href="#">나나나</a></li>
-            <li><a href="#">다다다</a></li>
+            <li><a href="#">다다다</a>
+              <ul class="sub2">
+                <li><a href="#">라이온</a></li>
+                <li><a href="#">라라웅</a></li>
+                <li><a href="#">라리웅</a></li>
+              </ul>
+            </li>
             <li><a href="#">라라라</a>
-                <ul class="sub2">
-                  <li><a href="#">라이온</a></li>
-                  <li><a href="#">라라웅</a></li>
-                  <li><a href="#">라리웅</a></li>
-                </ul>
             </li>
         </ul>
     </li>
-    <li><a href="#">다</a></li>
-    <li><a href="#">라</a></li>
+    <li><a href="#">다</a>
+      <ul class="sub1">
+         <li><a href="#">나나나</a></li>
+         <li><a href="#">다다다</a></li>
+         <li><a href="#">라라라</a>
+             <ul class="sub2">
+               <li><a href="#">라이온</a></li>
+               <li><a href="#">라라웅</a></li>
+               <li><a href="#">라리웅</a></li>
+             </ul>
+         </li>
+     </ul>
+    </li>
+    <li><a href="#">라</a>
+      <ul class="sub1">
+         <li><a href="#">나나나</a></li>
+         <li><a href="#">다다다</a></li>
+         <li><a href="#">라라라</a>
+             <ul class="sub2">
+               <li><a href="#">라이온</a></li>
+               <li><a href="#">라라웅</a></li>
+               <li><a href="#">라리웅</a></li>
+             </ul>
+         </li>
+     </ul>
+    </li>
   </ul>
 </body>
 </html>
