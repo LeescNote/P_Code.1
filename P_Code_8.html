@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Practice.</title>
+    <style>
+        input[type="checkbox"]{
+          display: none;
+        }
+        input[type="checkbox"]:checked~p{
+          display: none;
+        }
+        label{
+          background-color: green;
+          padding: 10px 50px;
+        }
+        label:active{
+          background-color: red;
+        }
+        p{
+          border: 1px solid red;
+          width: 150px;
+        }
+        body{
+          display:inline-block;
+        }
+
+        @media (max-width:600px){
+          div{
+            display: none;
+
+          }
+          body::before{
+            content: 'No No No';
+            font-size: 100px;
+          }
+        }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Checkbox Practice.</h1>
+    <input type="checkbox" id ="root">
+    <label for="root">Html</label>
+    <label for="root">Css</label>
+    <label for="root">Javascript</label>
+    <label for="root">python</label>
+    <p>Lorem ipsum dolor sit amet,ra numquam neque ad repudiandae quae mollitia voluptas vero accusantium, tempore similique ipsa modi quos atque id saepe voluptatibus ullam repellat? Veniam consequuntur ab ipsam enim inventore, velit dolorem natus rem maiores autem! ipsum dolor sit amet, consectetur adipisicing elit. Dolor, esse.</p>
+</div>
+
+</body>
+</html>
