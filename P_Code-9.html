@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+
+      li a{
+        text-decoration: none;
+        list-style: none;
+      }
+
+      .box {
+        display: block;
+      }
+
+      .box ul{
+        padding: 20px;
+        background-color: #ABC;
+        width: 120px;
+        text-align: center;
+      }
+
+      .box li{
+        display: none;
+        margin-top: 5px;
+      }
+
+      .box ul:hover li{
+        display: block;
+      }
+
+
+      .box li:hover{
+        background-color: gray;
+      }
+
+  </style>
+
+</head>
+<body>
+    <h1>menubar</h1>
+    <div class="box">
+        <ul>스포츠
+          <li><a href="#">축구</a></li>
+          <li><a href="#">야구</a></li>
+          <li><a href="#">농구</a></li>
+          <li><a href="#">수영</a></li>
+          <li><a href="#">스키</a></li>
+        </ul>
+    </div>
+</body>
+</html>
